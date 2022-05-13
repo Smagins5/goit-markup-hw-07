@@ -152,10 +152,9 @@ body {
 }
 .info__item {
     align-items: center;
-    margin-right: 50px;
 }
-.info__item:last-child {
-    margin-right: 0;
+.info__item +.info__item {
+    margin-left: 50px;
 }
 .info__link {
     color: var(--primary-text-color);
@@ -167,6 +166,9 @@ body {
     text-decoration: none;
     cursor: var(--cursor-default);
     transition: var(--hover-focus-effect);
+}
+.info__icon .info__item + .info__item {
+    margin-left: 10px;
 }
 .info__icon {
     margin-right: 10px;
