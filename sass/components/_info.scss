@@ -6,12 +6,6 @@
     align-items: center;
     & + & {
     margin-left: 50px;
-    
-    &:hover, :focus {
-    fill: $color-logo;
-    color: $color-logo;
-    transition: $hover-focus-effect;
-}
 }
 }
 &__link {
